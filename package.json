@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "discounthunter",
-  "scripts": {},
+  "scripts": {
+    "start": "node app.js"
+  },
   "repository": {
     "type": "git"
   },
-  "start": "node app.js",
   "author": "Samuel Gao & Vallie Li",
   "license": "ISC",
   "dependencies": {
