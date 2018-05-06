@@ -91,9 +91,6 @@ var isAuthenticated = function(req, res, next) {
 app.use(bodyParser.urlencoded({extended: false}))
 app.use(bodyParser.json());
 
-http.get('*', function(req, res) {  
-    res.redirect('https://' + req.headers.host + req.url);
-})
 
 app.use(express.static('frontend'));
 
