@@ -5,15 +5,11 @@
   "main": "discounthunter",
   "scripts": {},
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/UTSCC09/DiscountHunter.git"
+    "type": "git"
   },
+  "start": "node app.js",
   "author": "Samuel Gao & Vallie Li",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/UTSCC09/DiscountHunter/issues"
-  },
-  "homepage": "https://github.com/UTSCC09/DiscountHunter#readme",
   "dependencies": {
     "babel-loader": "^7.1.4",
     "babel-preset-es2015": "^6.24.1",
