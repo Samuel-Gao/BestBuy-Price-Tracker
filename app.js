@@ -138,11 +138,11 @@ app.use(function(req, res, next){
 const {OAuth2Client} = require('google-auth-library');
 
 // dev
-var CLIENT_ID = "340941719865-nluen8ujll66mu8tst55ebj7ee46gsa9.apps.googleusercontent.com";
-var clientSecret = 'A2fkl3QN7pX9ptSV4XxphU_J';
+var CLIENT_ID = "214660526982-b8s9c75pal0mts0qp5cssk4crc03plc3.apps.googleusercontent.com";
+var clientSecret = 'Suv1PnewHv-hFbKTOft8_FEk';
 
 
-const CaptchaSecret = "6LckCFAUAAAAAEzjOWzQQCepRZnRR_5Bdkx1CktC";
+const CaptchaSecret = "6LfJd1cUAAAAAHJSvkJpFo_BQ1h6t0DyRqSKYZN1";
 
 // For testing purpose
 // const client = new OAuth2Client(CLIENT_ID);
