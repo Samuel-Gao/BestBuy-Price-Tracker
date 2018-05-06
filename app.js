@@ -108,9 +108,9 @@ app.get("/contactUs", function(req, res, next){
     res.sendFile(path.resolve(__dirname, 'frontend', 'index.html'));
 })
 
-app.get("/credits", function(req, res, next){
-    res.sendFile(path.resolve(__dirname, 'frontend', 'index.html'));
-})
+// app.get("/credits", function(req, res, next){
+//     res.sendFile(path.resolve(__dirname, 'frontend', 'index.html'));
+// })
 
 
 const session = require('express-session');
@@ -818,7 +818,7 @@ app.post('/api/user/feedback/', function(req, res, next){
 // ========================================================
 const http = require('http');
 const https = require('https');
-const PORT = 80;
+const PORT = process.env.PORT || 3000;
 
 http.createServer(app).listen(PORT, function(err){
     if(err) console.error(err);
