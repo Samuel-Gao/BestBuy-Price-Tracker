@@ -827,3 +827,8 @@ http.createServer(app).listen(PORT, function(err){
     else console.info("HTTP server on http://localhost:%s", PORT);
 })
 // ========================================================
+//---------------------Keep Heroku Awake-------------------
+// ========================================================
+setInterval(function() {
+    http.get("https://discounthunter.ca");
+}, 300000); // every 5 minutes (300000)
