@@ -21,7 +21,7 @@ var Recaptcha = require('react-recaptcha');
     class Captcha extends Component {
         render() {
             return (
-                <Recaptcha sitekey="6LckCFAUAAAAAEI2bxdp4VjHnVBuFBht92nIhu8b" />
+                <Recaptcha sitekey="6LfJd1cUAAAAAGpZNDfVG_AzySjFwnh8W4ndBXqG" />
             )
         }
     }
@@ -92,7 +92,7 @@ var Recaptcha = require('react-recaptcha');
         constructor(props) {
             super(props);
             this.state = {
-                clientId: "340941719865-nluen8ujll66mu8tst55ebj7ee46gsa9.apps.googleusercontent.com", //dev
+                clientId: "214660526982-b8s9c75pal0mts0qp5cssk4crc03plc3.apps.googleusercontent.com", //dev
                 // clientId: "340941719865-82etc6cjnlqrd2vd45v832q4j5v5ibbq.apps.googleusercontent.com", //prod
 
                 style: {
